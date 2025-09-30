@@ -1,16 +1,50 @@
-# video_calling_app
+# VideoCall App
 
-A new Flutter project.
+A Flutter video calling application built with Agora SDK and BLoC state management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+-  User Authentication
+-  One-to-One Video Calling
+-  Screen Sharing
+-  User List with Offline Support
+-  Camera & Microphone Controls
+-  Error Handling
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** - UI Framework
+- **BLoC** - State Management
+- **Agora SDK** - Video Calling
+- **HTTP** - API Calls
+- **Shared Preferences** - Local Storage
+ 
+## Setup Instructions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###  Clone the Repository
+
+git clone <https://github.com/Kulwinderjsl/agora_video_calling_app>
+
+## APK 
+
+Link: 
+
+### how to run the app
+
+- Credentials
+  email: user@example.com
+  password: password
+
+- Click the text "Use demo credentials" to Autofill the email and password
+- Click Login It will open Home screen
+- In Home Screen you see two buttons 
+  1. Start Video call
+  2. User List
+- Click on Start Video call and Join from two different devices for one-to-one video call
+- Click on User List to see List of Users 
+
+## Assumptions & Limitations.
+
+ Deployment readiness  
+ - Versioning, Permissions are fine 
+ - Signing is not implemented

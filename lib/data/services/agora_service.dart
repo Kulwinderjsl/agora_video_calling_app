@@ -178,7 +178,6 @@ class AgoraService {
         );
       }
 
-      // Start screen capture
       await _agoraEngine!.startScreenCapture(
         const ScreenCaptureParameters2(
           captureVideo: true,

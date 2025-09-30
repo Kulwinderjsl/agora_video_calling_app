@@ -65,7 +65,6 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
 
                 if (state.isInCall) _buildCallControls(context, state),
 
-            //    _buildDebugOverlay(state),
               ],
             );
           },
@@ -318,36 +317,7 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
     );
   }
 
-  Widget _buildDebugOverlay(VideoCallState state) {
-    return Positioned(
-      bottom: 150,
-      left: 10,
-      child: Container(
-        padding: const EdgeInsets.all(8),
-        decoration: BoxDecoration(
-          color: Colors.black54,
-          borderRadius: BorderRadius.circular(8),
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              'Status: ${state.status}',
-              style: const TextStyle(color: Colors.white, fontSize: 10),
-            ),
-            Text(
-              'Local UID: ${state.localUid ?? "N/A"}',
-              style: const TextStyle(color: Colors.white, fontSize: 10),
-            ),
-            Text(
-              'Remote UIDs: ${state.remoteUids}',
-              style: const TextStyle(color: Colors.white, fontSize: 10),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
+
 
   Widget _buildScreenShareIndicator() {
     return Positioned(
