@@ -10,10 +10,10 @@ class AppConstants {
 
   // Agora Configuration
   static const String agoraAppId =
-      '8d061ddc32104022b14e31afbd145aa5'; // Replace with actual App ID
+      ''; // Replace with actual App ID
   static const String defaultChannelName = 'test123';
 
-  static const String tempToken ='007eJxTYNjRsb6OPfm7ekP/VTMZGcHL7yqCZh+ZrFBkcrbjY+EdNRcFBosUAzPDlJRkYyNDAxMDI6MkQ5NUY8PEtKQUQxPTxERT1Ve3MxoCGRmWXa1gZmSAQBCfnaEktbjE0MiYgQEAt6IgwA==';
+  static const String tempToken ='';
       }
 
 class AppRoutes {

@@ -30,7 +30,7 @@ git clone <https://github.com/Kulwinderjsl/agora_video_calling_app>
 Link: 
 
 ### how to run the app
-
+- Create Your Agora App Id and Temp token from Agora console and Add in Constants file
 - Credentials
   email: user@example.com
   password: password
